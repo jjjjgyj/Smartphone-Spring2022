@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtLastName: UITextField!
     
     @IBAction func goToSecondVC(_ sender: Any) {
-        performSegue(withIdentifier: "sequeToSecondVC", sender: true)
+        performSegue(withIdentifier: "sequeToSecondVC", sender: self)
     }
     override func viewDidLoad() {
         super.viewDidLoad()

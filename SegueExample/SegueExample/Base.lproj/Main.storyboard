@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ma2-Fq-pAr">
-                                <rect key="frame" x="139" y="433" width="137" height="31"/>
+                                <rect key="frame" x="67" y="433" width="281" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go To Second VC"/>
                                 <connections>
-                                    <action selector="goBack:" destination="0oL-Be-Hio" eventType="touchUpInside" id="c0g-8h-QvP"/>
+                                    <action selector="goBack:" destination="0oL-Be-Hio" eventType="touchUpInside" id="2Me-Vq-Nop"/>
                                     <action selector="goToSecondVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UQl-BV-BWh"/>
                                 </connections>
                             </button>
@@ -67,6 +67,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Go Back"/>
+                                <connections>
+                                    <action selector="goBack:" destination="OGs-DE-tdM" eventType="touchUpInside" id="vca-fF-YtP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VXL-Wn-6X4">
                                 <rect key="frame" x="99" y="129" width="216" height="21"/>

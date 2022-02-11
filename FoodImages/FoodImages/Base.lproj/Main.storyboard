@@ -33,6 +33,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pad Thai" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lWQ-xM-0nB">
                                                     <rect key="frame" x="5" y="265" width="404" height="30"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="0HE-pf-Pr2"/>
                                                         <constraint firstAttribute="height" constant="30" id="Vb4-et-4mf"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -42,12 +43,19 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="RYf-wD-kv8" secondAttribute="trailing" constant="5" id="1I6-hf-SLi"/>
+                                                <constraint firstItem="lWQ-xM-0nB" firstAttribute="top" secondItem="RYf-wD-kv8" secondAttribute="bottom" constant="5" id="2bs-Rf-ydX"/>
                                                 <constraint firstAttribute="bottom" secondItem="lWQ-xM-0nB" secondAttribute="bottom" constant="5" id="51s-cC-yyf"/>
+                                                <constraint firstItem="RYf-wD-kv8" firstAttribute="leading" secondItem="t7b-OM-VwH" secondAttribute="leading" constant="5" id="5fI-p6-Bq0"/>
                                                 <constraint firstItem="RYf-wD-kv8" firstAttribute="leading" secondItem="t7b-OM-VwH" secondAttribute="leading" constant="5" id="7hf-lX-8YP"/>
+                                                <constraint firstItem="lWQ-xM-0nB" firstAttribute="leading" secondItem="t7b-OM-VwH" secondAttribute="leading" constant="5" id="8ay-R6-jiB"/>
                                                 <constraint firstItem="lWQ-xM-0nB" firstAttribute="top" secondItem="RYf-wD-kv8" secondAttribute="bottom" constant="5" id="C34-Px-uLG"/>
+                                                <constraint firstAttribute="trailing" secondItem="lWQ-xM-0nB" secondAttribute="trailing" constant="5" id="M5s-fG-1Yf"/>
+                                                <constraint firstAttribute="trailing" secondItem="RYf-wD-kv8" secondAttribute="trailing" constant="5" id="PfM-Tl-jeA"/>
                                                 <constraint firstAttribute="trailing" secondItem="lWQ-xM-0nB" secondAttribute="trailing" constant="5" id="S1S-do-fjw"/>
                                                 <constraint firstItem="lWQ-xM-0nB" firstAttribute="leading" secondItem="t7b-OM-VwH" secondAttribute="leading" constant="5" id="Wop-N6-Htb"/>
                                                 <constraint firstItem="RYf-wD-kv8" firstAttribute="top" secondItem="t7b-OM-VwH" secondAttribute="top" constant="5" id="Yjy-ti-OFv"/>
+                                                <constraint firstItem="RYf-wD-kv8" firstAttribute="top" secondItem="t7b-OM-VwH" secondAttribute="top" constant="5" id="hnC-Ie-V5Q"/>
+                                                <constraint firstAttribute="bottom" secondItem="lWQ-xM-0nB" secondAttribute="bottom" constant="5" id="zqp-7j-NU1"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
